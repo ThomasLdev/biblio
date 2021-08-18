@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<polyline style="fill:none;stroke:#193651;stroke-width:2;stroke-miterlimit:10;" points="456.8,8 504,8 504,55.2 "/>
+<polygon style="fill:#193651;" points="16,55.2 0,55.2 0,0 55.2,0 55.2,16 16,16 "/>
+<g>
+	<polyline style="fill:none;stroke:#193651;stroke-width:2;stroke-miterlimit:10;" points="55.2,504 8,504 8,456.8 	"/>
+	<polyline style="fill:none;stroke:#193651;stroke-width:2;stroke-miterlimit:10;" points="456.8,504 504,504 504,456.8 	"/>
+</g>
+<g>
+	<rect x="496" y="280.8" style="fill:#193651;" width="16" height="16"/>
+	<rect x="496" y="347.2" style="fill:#193651;" width="16" height="16"/>
+	<rect x="496" y="413.6" style="fill:#193651;" width="16" height="16"/>
+	<rect x="496" y="82.4" style="fill:#193651;" width="16" height="16"/>
+	<rect x="496" y="148.8" style="fill:#193651;" width="16" height="16"/>
+	<rect x="496" y="215.2" style="fill:#193651;" width="16" height="16"/>
+	<rect y="280.8" style="fill:#193651;" width="16" height="16"/>
+	<rect y="347.2" style="fill:#193651;" width="16" height="16"/>
+	<rect y="413.6" style="fill:#193651;" width="16" height="16"/>
+	<rect y="82.4" style="fill:#193651;" width="16" height="16"/>
+	<rect y="148.8" style="fill:#193651;" width="16" height="16"/>
+	<rect y="215.2" style="fill:#193651;" width="16" height="16"/>
+	<rect x="215.2" y="496" style="fill:#193651;" width="16" height="16"/>
+	<rect x="148.8" y="496" style="fill:#193651;" width="16" height="16"/>
+	<rect x="82.4" y="496" style="fill:#193651;" width="16" height="16"/>
+	<rect x="413.6" y="496" style="fill:#193651;" width="16" height="16"/>
+	<rect x="347.2" y="496" style="fill:#193651;" width="16" height="16"/>
+	<rect x="280.8" y="496" style="fill:#193651;" width="16" height="16"/>
+	<rect x="215.2" style="fill:#193651;" width="16" height="16"/>
+	<rect x="148.8" style="fill:#193651;" width="16" height="16"/>
+	<rect x="82.4" style="fill:#193651;" width="16" height="16"/>
+	<rect x="413.6" style="fill:#193651;" width="16" height="16"/>
+	<rect x="347.2" style="fill:#193651;" width="16" height="16"/>
+	<rect x="280.8" style="fill:#193651;" width="16" height="16"/>
+</g>
+<rect x="88" y="55.2" style="fill:#FFFFFF;" width="300.8" height="401.6"/>
+<rect x="113.6" y="80.8" style="fill:#4FBF9F;" width="248.8" height="349.6"/>
+<g>
+	<path style="fill:#FFFFFF;" d="M429.6,418.4c0-20.8-17.6-38.4-39.2-38.4H112.8c21.6,0,39.2,16.8,39.2,38.4
+		c0,20.8-17.6,38.4-39.2,38.4h278.4C412.8,456.8,429.6,439.2,429.6,418.4z"/>
+	<path style="fill:#FFFFFF;" d="M55.2,221.6L55.2,221.6c111.2,139.2,290.4,139.2,401.6,0C345.6,82.4,166.4,82.4,55.2,221.6z"/>
+</g>
+<g>
+	<path style="fill:#193651;" d="M463.2,216.8c-20-24.8-42.4-45.6-66.4-62.4V47.2H80v136c-10.4,10.4-20.8,21.6-30.4,33.6l-4,4.8
+		l4,4.8c9.6,12,20,23.2,30.4,33.6v204.8h311.2c25.6,0,47.2-20.8,47.2-46.4c0-24-18.4-43.2-41.6-45.6v-84
+		c24-16.8,46.4-37.6,66.4-62.4l4-4.8L463.2,216.8z M96,63.2h284.8V144c-38.4-22.4-80.8-34.4-124.8-34.4c-57.6,0-112.8,20.8-160,60
+		L96,63.2L96,63.2z M421.6,418.4c0,16.8-13.6,30.4-31.2,30.4H148.8c7.2-8,11.2-18.4,11.2-30.4s-4-22.4-11.2-30.4h242.4
+		C408,388,421.6,401.6,421.6,418.4z M380.8,372h-268c-4.8,0-8,3.2-8,8s3.2,8,8,8c16.8,0,31.2,13.6,31.2,30.4s-13.6,30.4-31.2,30.4
+		H96V273.6c47.2,39.2,102.4,60,160,60l0,0c44,0,86.4-12,124.8-34.4V372z M256,317.6c-71.2,0-139.2-34.4-190.4-96
+		c51.2-62.4,119.2-96,190.4-96s139.2,34.4,190.4,96C395.2,283.2,327.2,317.6,256,317.6z"/>
+	<circle style="fill:#193651;" cx="256" cy="221.6" r="63.2"/>
+</g>
+<circle style="fill:#FFFFFF;" cx="238.4" cy="192" r="15.2"/>
+<path style="fill:none;stroke:#193651;stroke-width:2;stroke-miterlimit:10;" d="M55.2,221.6L55.2,221.6
+	c111.2,139.2,290.4,139.2,401.6,0C345.6,82.4,166.4,82.4,55.2,221.6z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>

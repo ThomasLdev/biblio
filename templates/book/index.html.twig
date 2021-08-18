@@ -1,0 +1,64 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Gestionnaire de livre{% endblock %}
+
+{% block pageTitle %}
+    Voici les livres que vous possedez :
+{% endblock %}
+
+{% block body %}
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Couverture</th>
+            <th>Titre</th>
+            <th>Pages</th>
+            <th>Editeur</th>
+            <th>Publié en</th>
+            <th>Ajouté le</th>
+            <th>Modifié le</th>
+            <th>Favoris</th>
+            <th>Prêté à</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for book in books %}
+            <tr>
+            <td>A VENIR</td>
+            <td class="text-align-left">
+            {% if book.title|length >= 30 %}
+            {{ book.title|slice(0, 30) }}...
+        {% else %}
+            {{ book.title }}
+            {% endif %}
+            </td>
+            <td>{{ book.pages }}</td>
+            <td>A VENIR</td>
+            <td>{{ book.publishedIn ? book.publishedIn|date('Y') : '' }}</td>
+                <td>{{ book.createdAt ? book.createdAt|date('Y-m-d') : '' }}</td>
+                <td>{{ book.updatedAt ? book.updatedAt|date('Y-m-d') : '' }}</td>
+            <td>
+                A VENIR
+            </td>
+            <td>A VENIR</td>
+            <td>
+                <a href="{{ path('book_show', {'id': book.id}) }}">
+                    <img src="{{ asset('/medias/icons/svg/003-esoteric.svg') }}" alt="" width="30" height="30">
+                </a>
+                <a href="{{ path('book_edit', {'id': book.id}) }}">
+                    <img src="{{ asset('/medias/icons/svg/025-art.svg') }}" alt="" width="30" height="30">
+                </a>
+                <a href="{{ path('book_edit', {'id': book.id}) }}">
+                    <img src="{{ asset('/medias/icons/svg/018-crime.svg') }}" alt="" width="30" height="30">
+                </a>
+            </td>
+            </tr>
+            {% else %}
+                <tr>
+                    <td colspan="10">Aucun livre trouvé =(</td>
+                </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

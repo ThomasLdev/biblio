@@ -1,0 +1,27 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &_home {
+    &-account {
+      margin-top: 3%;
+      & a {
+        text-decoration: underline;
+      }
+    }
+    &-list {
+      margin-top: 2%;
+      list-style-type: none;
+      & li {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        & span {
+          margin-left: 4%;
+        }
+      }
+    }
+  }
+}

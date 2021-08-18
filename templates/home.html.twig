@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block bodyClass %}home{% endblock %}
+
+{% block pageTitle %}Bienvenue sur biblio !{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <section class="section section_home">
+            <h2 class="section-title">
+                L'appli web qui gère votre bibliothèque
+            </h2>
+            <p>
+                Voici ce que vous pouvez faire avec biblio :
+            </p>
+
+            <ul class="section_home-list">
+                <li>
+                    <img class="navbar_brand-logo" src="{{ asset('/medias/icons/svg/007-encyclopedia.svg') }}"
+                         alt="biblio logo" width="80" height="80">
+                    <span>Visionner votre réserve sous forme de tableau. Fini les achats en triple une fois en magasin !</span>
+                </li>
+                <li>
+                    <img class="navbar_brand-logo" src="{{ asset('/medias/icons/svg/039-exchange.svg') }}"
+                         alt="biblio logo" width="80" height="80">
+                    <span>Accéder à la liste des livres que vous avez prêté, pour ne plus jamais les perdre...</span>
+                </li>
+                <li>
+                    <img class="navbar_brand-logo" src="{{ asset('/medias/icons/svg/043-information.svg') }}"
+                         alt="biblio logo" width="80" height="80">
+                    <span>Ventiler votre collection. Biblio utilise ISBN API de <strong>openlibrary.org</strong> pour vous faciliter la vie. Il suffit d'ajouter le code, et on se charge du reste !</span>
+                </li>
+                <li>
+                    <img class="navbar_brand-logo" src="{{ asset('/medias/icons/svg/040-reading.svg') }}"
+                         alt="biblio logo" width="80" height="80">
+                    <span>Gérer votre PAL (pile à lire) pour prévoir vos lectures</span>
+                </li>
+            </ul>
+
+            <p class="section_home-account">
+                Afin de pouvoir utiliser biblio, il vous faudra créer un compte <a href="#">par là</a>
+            </p>
+        </section>
+    </div>
+{% endblock %}

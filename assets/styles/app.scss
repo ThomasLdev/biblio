@@ -1,0 +1,9 @@
+//GENERAL
+@import './helper/_variables';
+@import './global/_global';
+//LAYOUT
+@import './layout/header';
+@import './layout/nav';
+@import './layout/section';
+//COMPONENTS
+@import './components/table';

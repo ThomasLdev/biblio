@@ -1,19 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {# Run `composer require symfony/webpack-encore-bundle`
-           and uncomment the following Encore helpers to start using Symfony UX #}
+        <title>{% block title %}Bienvenue sur Biblio !{% endblock %}</title>
+        <link rel="icon" type="image/svg+xml" href="{{ asset('/medias/icons/svg/036-reading.svg') }}">
         {% block stylesheets %}
-            {#{{ encore_entry_link_tags('app') }}#}
+            {{ encore_entry_link_tags('app') }}
         {% endblock %}
 
         {% block javascripts %}
-            {#{{ encore_entry_script_tags('app') }}#}
+            {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </head>
-    <body>
+    <body class="{% block bodyClass %}{% endblock %}">
+    {% block navbar %}
+        <nav class="navbar">
+            <div class="navbar_brand">
+                <a class="navbar_brand-link" href="{{ path('home_index') }}">
+                    <img class="navbar_brand-logo" src="{{ asset('/medias/icons/svg/036-reading.svg') }}" alt="biblio logo" width="80" height="80">
+                </a>
+                <span class="navbar_brand-title">
+                    <a href="{{ path('home_index') }}">Biblio</a>
+                </span>
+            </div>
+            <ul class="navbar_nav">
+                <li class="navbar_nav-item">
+                    <a class="navbar_nav-link" href="{{ path('book_index') }}">Réserve</a>
+                </li>
+                <li class="navbar_nav-item">
+                    <a class="navbar_nav-link" href="#">Prêts</a>
+                </li>
+                <li class="navbar_nav-item">
+                    <a class="navbar_nav-link" href="#">Gestionnaire</a>
+                </li>
+                <li class="navbar_nav-item">
+                    <a class="navbar_nav-link" href="#">PAL</a>
+                </li>
+            </ul>
+            <div class="navbar_burger">
+                <div class="navbar_burger-line navbar_burger-line--1"></div>
+                <div class="navbar_burger-line navbar_burger-line--2"></div>
+                <div class="navbar_burger-line navbar_burger-line--3"></div>
+            </div>
+        </nav>
+    {% endblock %}
+        {% block header %}
+        <header>
+            <h1>
+                {% block pageTitle %}
+                {% endblock %}
+            </h1>
+        </header>
+        {% endblock %}
         {% block body %}{% endblock %}
     </body>
 </html>
