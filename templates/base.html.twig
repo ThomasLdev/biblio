@@ -8,9 +8,7 @@
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
 
-        {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
-        {% endblock %}
+
     </head>
     <body class="{% block bodyClass %}{% endblock %}">
     {% block navbar %}
@@ -53,5 +51,8 @@
         </header>
         {% endblock %}
         {% block body %}{% endblock %}
+    {% block javascripts %}
+        {{ encore_entry_script_tags('app') }}
+    {% endblock %}
     </body>
 </html>
